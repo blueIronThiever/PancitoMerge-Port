@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gameList>
+  <game>
+    <path>./Pancito Merge.sh</path>
+    <name>Pancito Merge</name>
+    <desc>Drop, stack, and merge colorful pan dulce into bigger, tastier treats in this cozy puzzle adventure! With charming visuals and simple gameplay, it’s a sweet celebration of Mexican baking, perfect for quick sessions and high score chases.</desc>
+    <releasedate>20250912T000000</releasedate>
+    <developer>Fáyer</developer>
+    <publisher>Fáyer</publisher>
+    <genre>Puzzle</genre>
+    <image>./pancitomerge/screenshot.jpg</image>
+  </game>
+</gameList>

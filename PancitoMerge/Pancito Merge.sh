@@ -17,10 +17,12 @@ get_controls
 
 # Adjust these to your paths and desired godot version
 GAMEDIR=/$directory/ports/pancitomerge
-godot_runtime="godot_4.2.2"
-godot_executable="godot422.$DEVICE_ARCH"
-pck_filename="data.pck"
+godot_runtime="godot_4.6.3"
+godot_executable="godot463.\$DEVICE_ARCH"
+pck_filename="PancitoMerge.pck"
 gptk_filename="YourControls.gptk"
+
+
 
 # Logging
 > "$GAMEDIR/log.txt" && exec > >(tee "$GAMEDIR/log.txt") 2>&1
@@ -67,8 +69,11 @@ cd $GAMEDIR
 $GPTOKEYB "$godot_executable" -c "$GAMEDIR/$gptk_filename" &
 
 # Start Westonpack and Godot
-# Put CRUSTY_SHOW_CURSOR=1 after "env" if you need a mouse cursor
-$ESUDO env $weston_dir/westonwrap.sh headless noop kiosk crusty_x11egl \
+# env_var_1:  
+# RUSTY_FPS=1                 Prints the current FPS to the console every second 
+# WESTON_NO_HEADLESS_INPUT=1  Disable input capturing in weston headless mode, fixes some double input issues with SDL2 apps
+
+$ESUDO env WESTON_NO_HEADLESS_INPUT=1 $weston_dir/westonwrap.sh headless noop kiosk crusty_x11egl \
 XDG_DATA_HOME=$CONFDIR $godot_dir/$godot_executable \
 --resolution ${DISPLAY_WIDTH}x${DISPLAY_HEIGHT} -f \
 --rendering-driver opengl3_es --audio-driver ALSA --main-pack $GAMEDIR/$pck_filename
