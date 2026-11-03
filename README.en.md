@@ -1,3 +1,6 @@
+[![es-mx](https://img.shields.io/badge/lang-es--mx-green.svg)](https://github.com/blueIronThiever/PancitoMerge-Port/edit/main/README.md)
+[![en](https://img.shields.io/badge/lang-en-blue.svg)](https://github.com/blueIronThiever/PancitoMerge-Port/edit/main/README.en.md)
+
 ## Notes
 
 Thanks to Fayer and all the devs involved in the creation of this game: Vanila, inubass, Majo Felix, et.al.
