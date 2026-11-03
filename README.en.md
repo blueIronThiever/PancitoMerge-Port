@@ -23,3 +23,18 @@ Warning: Playing this game may induce carving for eating bread.
 ## Compile
 
 No need to compile
+
+## Instructions
+
+ 1. Buy Pancito Merge on Steam
+ 2. Go to the PCK directory. You normaly found it on:
+ **Linux:**
+ ```bash
+home/TuUsuario/.local/share/Steam/steamapps/common/PancitoMerge/PancitoMerge.pck
+ ```
+ **Windows:**
+ ```cmd
+ C:\Program Files (x86)\SteamLibrary\steamapps\common\PancitoMerge\PancitoMerge.pck
+ ```
+ 3. Export the pck file to you console on the directory /roms/ports/PancitoMerge/PancitoMerge/
+ 4. Run and Enjoy!
