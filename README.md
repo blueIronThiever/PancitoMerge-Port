@@ -23,3 +23,37 @@ Advertencia: Juegar este juego puede provocar antojo de comer pan.
 ## Compilación
 
 No se necesita compilar
+
+## Instrucciones:
+
+1. Compra **PancitoMerge** en Steam o Itchio
+2. Ve al directorio de descarga, normalmente se encuentra en:
+  
+```bash
+  /home/TuUsuario/.local/share/Steam/steamapps/common/PancitoMerge
+```
+
+4. Busca el achivo .pck
+5. Transfiere este archivo a tu consola en la carpeta:
+
+```
+/roms/ports/PancitoMerge/PancitoMerge/PancitoMerge.pck
+```
+
+6. Ejecuta el juego
+7. ¡Disfruta!
+
+**ES**
+1. Compra PancitoMerge en Steam
+2. Ve al directorio donde se encuentra el archivo PCK, normalmente se encuentra en:
+**Linux:**
+```bash
+home/TuUsuario/.local/share/Steam/steamapps/common/PancitoMerge/PancitoMerge.pck
+```
+
+**Windows:**
+```bash
+C:\\Program Files (x86)\\SteamLibrary\\steamapps\\common\\PancitoMerge\\PancitoMerge.pck
+```
+3.  Exporta este archivo a tu consola en la carpeta /roms/ports/PancitoMerge/PancitoMerge/
+4. Ejecuta el juego y ¡Disfruta!
