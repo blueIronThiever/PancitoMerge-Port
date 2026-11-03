@@ -1,3 +1,6 @@
+[![es-mx](https://img.shields.io/badge/lang-es--mx-green.svg)](https://github.com/blueIronThiever/PancitoMerge-Port/edit/main/README.md)
+[![en](https://img.shields.io/badge/lang-en-blue.svg)](https://github.com/blueIronThiever/PancitoMerge-Port/edit/main/README.en.md)
+
 ## Agradecimientos
 
 Gracias a [Fayer](https://fayer.dev/inicio), y a todas y todos los involucrados en la creacion de este bello juego: [Vanila](https://www.instagram.com/vanila_ryder/?hl=es), [inubass](https://sketchyceviche.dev/) [Majo Felix](https://www.skyrosemusic.com/) et.al.
