@@ -3,7 +3,7 @@
 
 ## Agradecimientos
 
-Gracias a [Fayer](https://fayer.dev/inicio), y a todas y todos los involucrados en la creacion de este bello juego: [Vanila](https://www.instagram.com/vanila_ryder/?hl=es), [inubass](https://sketchyceviche.dev/) [Majo Felix](https://www.skyrosemusic.com/) et.al.
+Gracias a [Fayer](https://fayer.dev/inicio), y a todas y todos los involucrados en la creacion de este bello juego: [Vanila](https://www.instagram.com/vanila_ryder/?hl=es), [inubass](https://sketchyceviche.dev/), [Majo Felix](https://www.skyrosemusic.com/) et.al.
 
 Por favor apoya a los desarrolladores comprando el juego de manera legal en su pagina de [Steam](https://store.steampowered.com/app/3655610/PancitoMerge/)
 
