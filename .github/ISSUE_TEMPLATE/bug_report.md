@@ -31,9 +31,9 @@ A clear and concise description of what you expected to happen.
 Add screenshots to help explain your problem.
 The port haves a screenshot feature
 Take screeshots with Buttons Select + Y
-The screenshots are on 
+The screenshots are on: 
 ```
-...
+.../ports/pancitomerge/conf/godot/app_userdata/PancitoMerge/
 ```
 
 **Console (please complete the following information):**
