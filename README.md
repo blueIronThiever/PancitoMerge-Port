@@ -11,7 +11,7 @@ Advertencia: Juegar este juego puede provocar antojo de comer pan.
 
 ## Controles 
 
-| Button | Action |
+| Boton | Acción |
 |--|--| 
 |D-Pad Arriba / Joystick Arriba|Arriba|
 |D-Pad Derecha / Joystick Derecha|Derecha|
@@ -29,6 +29,17 @@ No se necesita compilar
 
 ## Instrucciones:
 
+**📦️ Para instalar el port:**
+1. Descarga el repositorio
+2. Carga "Pancito Merge.ssh" en tu carpeta de Ports.
+En ArkOS / dArkOS es: 
+```
+/roms/ports/
+```
+3. Carga la carpeta "pancitomerge" en tu carpeta de ports
+
+
+**🕹️ Para instalar el juego**
 1. Compra **PancitoMerge** en Steam o Itchio
 2. Ve al directorio de descarga, normalmente se encuentra en:
   
@@ -45,3 +56,21 @@ No se necesita compilar
 
 6. Ejecuta el juego
 7. ¡Disfruta!
+
+## 🧪️  Para colaborar 
+
+Prueba el port en tu consoloa y reporta cualquier bug Usando la plantilla de bugs en [Issues](https://github.com/blueIronThiever/PancitoMerge-Port/issues) dentro de este repositorio.
+
+Agregué la capacidad de tomar capturas dentro del juego las cuales te pueden servir para reportar errores
+
+Para tomar capturas usa:
+
+| Botón | Acción |
+|--|--|
+| L + R| Capturar pantalla |
+
+Las capturas las puedes encontrar en tu consola, dentro de la carpeta:
+
+```
+.../ports/pancitomerge/conf/godot/app_userdata/PancitoMerge/
+```
