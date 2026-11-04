@@ -45,18 +45,3 @@ No se necesita compilar
 
 6. Ejecuta el juego
 7. ¡Disfruta!
-
-**ES**
-1. Compra PancitoMerge en Steam
-2. Ve al directorio donde se encuentra el archivo PCK, normalmente se encuentra en:
-**Linux:**
-```bash
-home/TuUsuario/.local/share/Steam/steamapps/common/PancitoMerge/PancitoMerge.pck
-```
-
-**Windows:**
-```bash
-C:\\Program Files (x86)\\SteamLibrary\\steamapps\\common\\PancitoMerge\\PancitoMerge.pck
-```
-3.  Exporta este archivo a tu consola en la carpeta /roms/ports/PancitoMerge/PancitoMerge/
-4. Ejecuta el juego y ¡Disfruta!
