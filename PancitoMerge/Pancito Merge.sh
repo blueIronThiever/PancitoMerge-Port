@@ -15,12 +15,12 @@ source $controlfolder/control.txt
 [ -f "${controlfolder}/mod_${CFW_NAME}.txt" ] && source "${controlfolder}/mod_${CFW_NAME}.txt"
 get_controls
 
-# Adjust these to your paths and desired godot version
+# Paths, dirs and godot version
 GAMEDIR=/$directory/ports/PancitoMerge
 godot_runtime="godot_4.6.3"
-godot_executable="godot463.\$DEVICE_ARCH"
+godot_executable="godot463.${DEVICE_ARCH}"
 pck_filename="PancitoMerge-patched.pck"
-gptk_filename="YourControls.gptk"
+gptk_filename="Controls.ini"
 
 # Logging
 > "$GAMEDIR/log.txt" && exec > >(tee "$GAMEDIR/log.txt") 2>&1
@@ -72,17 +72,24 @@ if [ -f "$GAMEDIR/PancitoMerge.pck" ]; then
   rm -f "$GAMEDIR/PancitoMerge.pck"
 fi
 
-$GPTOKEYB "$godot_executable" -c "$GAMEDIR/$gptk_filename" &
+
+# Starts gptokeyb
+$GPTOKEYB2 "$godot_executable" \
+    -c "$GAMEDIR/$gptk_filename" &
+
 
 # Start Westonpack and Godot
 # env_var_1:  
 # RUSTY_FPS=1                 Prints the current FPS to the console every second 
 # WESTON_NO_HEADLESS_INPUT=1  Disable input capturing in weston headless mode, fixes some double input issues with SDL2 apps
 
-$ESUDO env WESTON_NO_HEADLESS_INPUT=1 $weston_dir/westonwrap.sh headless noop kiosk crusty_x11egl \
+$ESUDO $weston_dir/westonwrap.sh headless noop kiosk crusty_x11egl \
 XDG_DATA_HOME=$CONFDIR $godot_dir/$godot_executable \
 --resolution ${DISPLAY_WIDTH}x${DISPLAY_HEIGHT} -f \
 --rendering-driver opengl3_es --audio-driver ALSA --main-pack $GAMEDIR/$pck_filename
+
+# Kill gptokeyb2 afer godot finish
+# kill -9 $(pidof gptokeyb2)
 
 #Clean up after ourselves
 $ESUDO $weston_dir/westonwrap.sh cleanup
