@@ -30,6 +30,10 @@ No se necesita compilar
 ## Instrucciones:
 
 **📦️ Para instalar el port:**
+
+Debes instalar la última versión [PortMaster](https://portmaster.games/) 
+
+
 1. Descarga el repositorio
 2. Carga "Pancito Merge.ssh" en tu carpeta de Ports.
 En ArkOS / dArkOS es: 
@@ -59,7 +63,8 @@ En ArkOS / dArkOS es:
 
 ## 🧪️  Para colaborar 
 
-Prueba el port en tu consoloa y reporta cualquier bug Usando la plantilla de bugs en [Issues](https://github.com/blueIronThiever/PancitoMerge-Port/issues) dentro de este repositorio.
+Prueba el port en tu consoloa y reporta cualquier bug Usando la plantilla de bugs en el menú de [Issues](https://github.com/blueIronThiever/PancitoMerge-Port/issues) dentro de este repositorio.
+También, si no hay errores puedes reportar que todo está bien usando la pantilla report en el menú de issues [Issues](https://github.com/blueIronThiever/PancitoMerge-Port/issues)
 
 Agregué la capacidad de tomar capturas dentro del juego las cuales te pueden servir para reportar errores
 
