@@ -29,8 +29,19 @@ No need to compile
 
 ## Instructions
 
+**📦️ Port Installation:**
+1. Download or clone this repository
+2. Upload "Pancito Merge.sh" to your console, on your Ports folder.
+On ArkOS / dArkOS the folder is: 
+```
+/roms/ports/
+```
+3. Upload the folder "pancitomerge" and their contents on your ports folder
+
+
+**🕹️ Install the game**
  1. Buy Pancito Merge on Steam
- 2. Go to the PCK directory. You normaly found it on:
+ 2. Go to the PCK directory. You normally found it on:
  **Linux:**
  ```bash
 home/TuUsuario/.local/share/Steam/steamapps/common/PancitoMerge/PancitoMerge.pck
@@ -41,3 +52,23 @@ home/TuUsuario/.local/share/Steam/steamapps/common/PancitoMerge/PancitoMerge.pck
  ```
  3. Export the pck file to you console on the directory /roms/ports/PancitoMerge/PancitoMerge/
  4. Run and Enjoy!
+
+## 🧪️  Collaboration 
+
+Test the port in your console and report any bug using the bug template into [Issues](https://github.com/blueIronThiever/PancitoMerge-Port/issues) menu
+
+If there is no bug, please make a report with the report template into Issues menu.
+
+I have added a screenshot capture feature into the port. Use it in your reports
+
+The screen capture combo is:
+
+| Button | Action            |
+| ------ | ----------------- |
+| L + R  | Snapshot |
+
+The snapshot must be in your console, into the following folder:
+
+```
+.../ports/pancitomerge/conf/godot/app_userdata/PancitoMerge/
+```
