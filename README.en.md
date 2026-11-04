@@ -30,6 +30,8 @@ No need to compile
 ## Instructions
 
 **📦️ Port Installation:**
+Please ensure that you have installed the last version of [PortMaster](https://portmaster.games/index.html) on your console
+
 1. Download or clone this repository
 2. Upload "Pancito Merge.sh" to your console, on your Ports folder.
 On ArkOS / dArkOS the folder is: 
