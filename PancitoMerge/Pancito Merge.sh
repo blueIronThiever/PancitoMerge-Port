@@ -16,13 +16,11 @@ source $controlfolder/control.txt
 get_controls
 
 # Adjust these to your paths and desired godot version
-GAMEDIR=/$directory/ports/pancitomerge
+GAMEDIR=/$directory/ports/PancitoMerge
 godot_runtime="godot_4.6.3"
 godot_executable="godot463.\$DEVICE_ARCH"
-pck_filename="PancitoMerge.pck"
+pck_filename="PancitoMerge-patched.pck"
 gptk_filename="YourControls.gptk"
-
-
 
 # Logging
 > "$GAMEDIR/log.txt" && exec > >(tee "$GAMEDIR/log.txt") 2>&1
@@ -66,6 +64,14 @@ $ESUDO mount "$controlfolder/libs/${godot_runtime}.squashfs" "${godot_dir}"
 
 
 cd $GAMEDIR
+
+
+# Patch
+if [ -f "$GAMEDIR/PancitoMerge.pck" ]; then
+  $controlfolder/xdelta3 -d -s "$GAMEDIR/PancitoMerge.pck" "$GAMEDIR/screenshot_patch.xdelta" "$GAMEDIR/PancitoMerge-patched.pck"
+  rm -f "$GAMEDIR/PancitoMerge.pck"
+fi
+
 $GPTOKEYB "$godot_executable" -c "$GAMEDIR/$gptk_filename" &
 
 # Start Westonpack and Godot
