@@ -16,7 +16,7 @@ source $controlfolder/control.txt
 get_controls
 
 # Paths, dirs and godot version
-GAMEDIR=/$directory/ports/PancitoMerge
+GAMEDIR=/$directory/ports/pancitomerge
 godot_runtime="godot_4.6.3"
 godot_executable="godot463.${DEVICE_ARCH}"
 pck_filename="PancitoMerge-patched.pck"
