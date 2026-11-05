@@ -1,3 +1,4 @@
+![description](porteo_de_pancito.jpeg)
 [![es-mx](https://img.shields.io/badge/lang-es--mx-green.svg)](https://github.com/blueIronThiever/PancitoMerge-Port/blob/main/README.md)
 [![en](https://img.shields.io/badge/lang-en-blue.svg)](https://github.com/blueIronThiever/PancitoMerge-Port/blob/main/README.en.md)
 
