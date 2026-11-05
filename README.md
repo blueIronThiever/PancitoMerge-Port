@@ -73,7 +73,7 @@ Para tomar capturas usa:
 
 | Botón | Acción |
 |--|--|
-| SELECT + R| Capturar pantalla |
+| SELECT | Capturar pantalla |
 
 Las capturas las puedes encontrar en tu consola, dentro de la carpeta:
 
