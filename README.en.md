@@ -67,7 +67,7 @@ The screen capture combo is:
 
 | Button | Action            |
 | ------ | ----------------- |
-| SELECT + R  | Snapshot |
+| SELECT | Snapshot |
 
 The snapshot must be in your console, into the following folder:
 
