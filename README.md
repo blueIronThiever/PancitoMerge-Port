@@ -4,9 +4,9 @@
 
 ## Agradecimientos
 
-Gracias a [Fayer](https://fayer.dev/inicio), y a todas y todos los involucrados en la creacion de este bello juego: [Vanila](https://www.instagram.com/vanila_ryder/?hl=es), [inubass](https://sketchyceviche.dev/), [Majo Felix](https://www.skyrosemusic.com/) et.al.
+Gracias a [Fayer](https://fayer.dev/inicio), y a todas y todos los involucrados en la creación de este bello juego: [Vanila](https://www.instagram.com/vanila_ryder/?hl=es), [inubass](https://sketchyceviche.dev/), [Majo Felix](https://www.skyrosemusic.com/) et.al.
 
-Por favor apoya a los desarrolladores comprando el juego de manera legal en su pagina de [Steam](https://store.steampowered.com/app/3655610/PancitoMerge/)
+Por favor apoya a los desarrolladores comprando el juego de manera legal en su página de [Steam](https://store.steampowered.com/app/3655610/PancitoMerge/)
 
 Advertencia: Juegar este juego puede provocar antojo de comer pan.
 
@@ -36,7 +36,7 @@ Debes instalar la última versión [PortMaster](https://portmaster.games/)
 
 
 1. Descarga el repositorio
-2. Carga "Pancito Merge.ssh" en tu carpeta de Ports.
+2. Carga "Pancito Merge.sh" en tu carpeta de Ports.
 En ArkOS / dArkOS es: 
 ```
 /roms/ports/
@@ -48,8 +48,13 @@ En ArkOS / dArkOS es:
 1. Compra **PancitoMerge** en Steam o Itchio
 2. Ve al directorio de descarga, normalmente se encuentra en:
   
-```bash
-  /home/TuUsuario/.local/share/Steam/steamapps/common/PancitoMerge
+**Linux:**
+ ```bash
+home/TuUsuario/.local/share/Steam/steamapps/common/PancitoMerge/PancitoMerge.pck
+ ```
+ **Windows:**
+ ```cmd
+ C:\Program Files (x86)\SteamLibrary\steamapps\common\PancitoMerge\PancitoMerge.pck
 ```
 
 4. Busca el achivo .pck
