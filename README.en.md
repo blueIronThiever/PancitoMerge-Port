@@ -45,6 +45,7 @@ On ArkOS / dArkOS the folder is:
 **🕹️ Install the game**
  1. Buy Pancito Merge on Steam
  2. Go to the PCK directory. You normally found it on:
+
  **Linux:**
  ```bash
 home/TuUsuario/.local/share/Steam/steamapps/common/PancitoMerge/PancitoMerge.pck
