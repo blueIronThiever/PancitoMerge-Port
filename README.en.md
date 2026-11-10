@@ -2,6 +2,15 @@
 [![es-mx](https://img.shields.io/badge/lang-es--mx-green.svg)](https://github.com/blueIronThiever/PancitoMerge-Port/blob/main/README.md)
 [![en](https://img.shields.io/badge/lang-en-blue.svg)](https://github.com/blueIronThiever/PancitoMerge-Port/blob/main/README.en.md)
 
+## Port Status
+
+**CFW Tests:**
+[] AmberELEC , [✅] dArkOS , [] MuOS, [✅] ROCKNIX, [] Libmali, [] Panfrost, [] Adreno , [] Knulli
+
+**Resolutions:**
+[] 480x320, [] 640x480 , [✅] 720x720 (RGB30), [✅] Higher resolutions
+
+
 ## Notes
 
 Thanks to Fayer and all the devs involved in the creation of this game: Vanila, inubass, Majo Felix, et.al.
