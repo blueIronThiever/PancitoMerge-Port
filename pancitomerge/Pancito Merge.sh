@@ -1,3 +1,4 @@
+#!/bin/bash
 XDG_DATA_HOME=${XDG_DATA_HOME:-$HOME/.local/share}
 if [ -d "/opt/system/Tools/PortMaster/" ]; then
   controlfolder="/opt/system/Tools/PortMaster"
@@ -73,7 +74,7 @@ fi
 # Starts gptokeyb
 $GPTOKEYB2 "$godot_executable" \
     -c "$GAMEDIR/$gptk_filename" &
-
+pm_platform_helper "$GAMEDIR/$godot_executable"
 
 # Start Westonpack and Godot
 $ESUDO env $weston_dir/westonwrap.sh headless noop kiosk crusty_x11egl \
