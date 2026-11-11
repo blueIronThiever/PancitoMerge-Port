@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "name": "PancitoMerge.zip",
+  "name": "pancitomerge.zip",
   "items": [
     "Pancito Merge.sh",
     "pancitomerge"
@@ -11,18 +11,19 @@
     "porter": [
       "azulbit8"
     ],
-    "desc": "PancitoMerge es un juego cozy estilo Suika, hecho con pan tradicional Mexicano. Debes mezclar panes y venderlos a los clientes ¡hasta que la bolsa explote!",
+    "desc": "Drop, stack, and merge colorful pan dulce into bigger, tastier treats in this cozy puzzle adventure! With charming visuals and simple gameplay, it’s a sweet celebration of Mexican baking, perfect for quick sessions and high score chases.",
     "desc_md": null,
-    "inst": "**ES**\n\n1. Compra PancitoMerge en Steam\n2. Ve al directorio donde se encuentra el archivo PCK, normalmente se encuentra en: \n\nLinux: /home/TuUsuario/.local/share/Steam/steamapps/common/PancitoMerge/PancitoMerge.pck\n\nWindows: C:\\Program Files (x86)\\SteamLibrary\\steamapps\\common\\PancitoMerge\\PancitoMerge.pck\n3.  Exporta este archivo a tu consola en la carpeta /roms/ports/PancitoMerge/PancitoMerge/\n4. Ejecuta el juego y ¡Disfruta!\n\n**EN**\n\n1. Buy Pancito Merge on Steam\n2. Go to the PCK directory. You normaly found it on: /home/TuUsuario/.local/share/Steam/steamapps/common/PancitoMerge/PancitoMerge.pck\nWindows: C:\\Program Files (x86)\\SteamLibrary\\steamapps\\common\\PancitoMerge\\PancitoMerge.pck\n3. Export the pck file to you console on the directory /roms/ports/PancitoMerge/PancitoMerge/\n4. Run and Enjoy!",
+    "inst": null,
     "inst_md": "**ES**\n\n1. Compra PancitoMerge en Steam\n2. Ve al directorio donde se encuentra el archivo PCK, normalmente se encuentra en: \n\n**Linux:**\n\n```bash\n/home/TuUsuario/.local/share/Steam/steamapps/common/PancitoMerge/PancitoMerge.pck\n```\n**Windows:**\n\n```bash\nC:\\Program Files (x86)\\SteamLibrary\\steamapps\\common\\PancitoMerge\\PancitoMerge.pck\n```\n\n3.  Exporta este archivo a tu consola en la carpeta /roms/ports/PancitoMerge/PancitoMerge/\n\n4. Ejecuta el juego y ¡Disfruta!\n\n**EN**\n\n1. Buy Pancito Merge on Steam\n2. Go to the PCK directory. You normaly found it on:\n\n**Linux:**\n```bash\n/home/TuUsuario/.local/share/Steam/steamapps/common/PancitoMerge/PancitoMerge.pck\n```\n**Windows:**\n```bash\nC:\\Program Files (x86)\\SteamLibrary\\steamapps\\common\\PancitoMerge\\PancitoMerge.pck\n```\n3. Export the pck file to you console on the directory /roms/ports/PancitoMerge/PancitoMerge/\n4. Run and Enjoy!\n\n\n",
     "genres": [
       "puzzle"
     ],
     "image": null,
-    "rtr": true,
+    "rtr": false,
     "exp": false,
     "runtime": [
-      "weston_pkg_0.2.squashfs"
+      "weston_pkg_0.2.squashfs",
+      "godot_4.6.3.squashfs"
     ],
     "store": [
       {
@@ -36,9 +37,7 @@
       "2gb",
       "power"
     ],
-    "arch": [
-      "aarch64"
-    ],
+    "arch": [],
     "min_glibc": ""
   }
 }

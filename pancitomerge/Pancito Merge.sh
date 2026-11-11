@@ -1,6 +1,3 @@
-#!/bin/bash
-
-# PortMaster preamble
 XDG_DATA_HOME=${XDG_DATA_HOME:-$HOME/.local/share}
 if [ -d "/opt/system/Tools/PortMaster/" ]; then
   controlfolder="/opt/system/Tools/PortMaster"
@@ -79,17 +76,10 @@ $GPTOKEYB2 "$godot_executable" \
 
 
 # Start Westonpack and Godot
-# env_var_1:  
-# RUSTY_FPS=1                 Prints the current FPS to the console every second 
-# WESTON_NO_HEADLESS_INPUT=1  Disable input capturing in weston headless mode, fixes some double input issues with SDL2 apps
-
-$ESUDO $weston_dir/westonwrap.sh headless noop kiosk crusty_x11egl \
+$ESUDO env $weston_dir/westonwrap.sh headless noop kiosk crusty_x11egl \
 XDG_DATA_HOME=$CONFDIR $godot_dir/$godot_executable \
 --resolution ${DISPLAY_WIDTH}x${DISPLAY_HEIGHT} -f \
 --rendering-driver opengl3_es --audio-driver ALSA --main-pack $GAMEDIR/$pck_filename
-
-# Kill gptokeyb2 afer godot finish
-# kill -9 $(pidof gptokeyb2)
 
 #Clean up after ourselves
 $ESUDO $weston_dir/westonwrap.sh cleanup
